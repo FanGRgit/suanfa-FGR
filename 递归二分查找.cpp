@@ -1,7 +1,6 @@
 #include <stdio.h> 
 #define ARRAY_SIZE 10
 #define NOT_FOUND -1
-
 int BinarySearch(int array[], int left, int right, int NumToSearch)
 {
  int mid = (left + right) / 2;
